@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "textureclassification_multer_icip2019"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+torch = "1.0.0"
+Pillow = "6.0.0"
+torchvision = "0.2.2"
+requests = "2.22.0"
+tensorboardX = "^2.5"
+torch-encoding = {url = "https://github.com/zhanghang1989/PyTorch-Encoding/archive/refs/tags/v1.0.0.tar.gz"}
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
