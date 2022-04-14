@@ -1,8 +1,11 @@
 # custom
-**/*.tar.gz
-logs/*
-models/*
+*.tar.gz
+**/*.pth
+*.zip
+data/
 data/*
+logs/
+logs/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -20,7 +23,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+# lib/
 lib64/
 parts/
 sdist/
